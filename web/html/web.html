@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <!--中文为主要语言-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--兼容老浏览器-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geek Studio</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- import icon -->
+    <link rel="shortcut icon" href="LOGO.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!--主页面-->
+    <div class="flex">
+      <!--顶部栏-->
+      <div
+        class="flex"
+        style="height: 70px; background-color: #2c2c32; flex-direction: row"
+      >
+        <div class="flex">
+          <img src="../pictures/LOGO2.1.png" alt="团队LOGO" class="imgLOGO" />
+        </div>
+        <div
+          style="
+            color: aliceblue;
+            margin-top: 20px;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+          "
+        >
+          极客工作室
+        </div>
+        <!--搜索栏-->
+        <div class="group" style="margin-left: 800px">
+          <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+            <g>
+              <path
+                d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"
+              ></path>
+            </g>
+          </svg>
+          <input placeholder="Search" type="search" class="input" />
+        </div>
+      </div>
+      <!--软件下载栏-->
+      <div style="height: 500px; background-color: #25252b"></div>
+      <!--导航栏-->
+      <div class="flex" style="flex-direction: row; flex: 1">
+        <div style="flex: 1; text-align: center" class="padding8">
+          <button>
+            <a href="web.html" style="color: black; text-decoration: none"
+              >首页</a
+            >
+          </button>
+        </div>
+        <div style="flex: 1; text-align: center" class="padding8">
+          <button>
+            <a href="aboutus.html" style="color: black; text-decoration: none"
+              >关于我们</a
+            >
+          </button>
+        </div>
+        <div style="flex: 1; text-align: center" class="padding8">
+          <button>
+            <a href="contactus.html" style="color: black; text-decoration: none"
+              >联系我们</a
+            >
+          </button>
+        </div>
+        <div style="flex: 1; text-align: center" class="padding8">
+          <button>
+            <a href="Message boards.html" style="color: black; text-decoration: none"
+              >留言板</a
+            >
+          </button>
+        </div>
+      </div>
+      <!--主体部分-->
+      <div style="flex: 1">
+        <!--联系我们-->
+        <div
+          style="
+            height: 500px;
+            flex: 1;
+            background-image: url(../pictures/like.jpg);
+            background-size: cover;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 50px;
+            position: relative;
+          "
+        >
+          <div style="font-size: 100px">联系我们</div>
+          <div style="font-size: 30px">如果你有什么idea,欢迎与我们分享！</div>
+          <div style="position: absolute; bottom: 10px; left: 750px">
+            <button class="button1" style="font-size: 30px">了解详情</button>
+          </div>
+        </div>
+        <!--游戏说明-->
+        <div style="height: 500px; flex: 1"></div>
+        <!--游戏攻略-->
+        <div style="height: 500px; flex: 1; background-color: #f5f5f5"></div>
+      </div>
+      <!--许可说明-->
+      <div class="end">
+        <h3>许可和隐私条款</h3>
+        <p>
+          下载和使用 game,即表示您同意许可条款和隐私声明。与
+          代码会自动发送遥测数据和故障转储，
+          <br />以帮助我们改进产品。如果你愿意 不希望发送此数据，请参阅<a
+            href="end.html"
+            style="color: deepskyblue; text-decoration: none"
+            >如何禁用自推送数据</a
+          >以了解如何禁用它。
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
